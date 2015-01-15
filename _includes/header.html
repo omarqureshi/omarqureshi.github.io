@@ -1,9 +1,9 @@
-<core-header-panel navigation flex>
-  <core-toolbar id="navheader">
-    <span>Menu</span>
-  </core-toolbar>
-  <core-menu>
-    <core-item label="One"></core-item>
-    <core-item label="Two"></core-item>
-  </core-menu>
-</core-header-panel>
+<core-toolbar>
+  <div class="title"><h1><a href="/">The ramblings of Omar</a></h1></div>
+</core-toolbar>
+<core-toolbar>
+  <paper-tabs id="tabs" selected="{{ page.selected }}" noink="true" self-end>
+    <paper-tab name="posts">Posts</paper-tab>
+    <!-- <paper-tab name="projects">Projects</paper-tab> -->
+  </paper-tabs>
+</core-toolbar>

@@ -3,20 +3,12 @@
 
   {% include head.html %}
 
-  <body>
-    <core-scaffold>
-
+  <body unresolved>
+    <core-header-panel>
       {% include header.html %}
-
-      <span tool>The thoughts of Omar</span>
-
-      <div class="content">
-        {{ content }}
-      </div>
-
+      {{ content }}
       {% include footer.html %}
-    </core-scaffold>
-
+    </core-header-panel>
   </body>
 
 </html>
